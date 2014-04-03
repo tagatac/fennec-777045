@@ -14,11 +14,11 @@ public class testCheck extends PixelTest {
 
     @Override
     protected int getTestType() {
-        return TEST_TALOS;
+        return TEST_MOCHITEST;
     }
 
     public void testCheck() {
-        String url = getAbsoluteUrl("/startup_test/fennecmark/timecube.html");
+        String url = "http://timecube.com/";
 
         mActions.expectGeckoEvent("Gecko:Ready").blockForEvent();
 
