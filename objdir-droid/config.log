@@ -1,0 +1,1098 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:1078: checking host system type
+configure:1099: checking target system type
+configure:1117: checking build system type
+configure:1196: checking for mawk
+configure:1448: checking for perl5
+configure:1448: checking for perl
+configure:1803: checking for host c compiler
+configure:1809: checking for gcc
+configure:1844: checking for host c++ compiler
+configure:1850: checking for c++
+configure:1902: checking for ranlib
+configure:1937: checking for ar
+configure:1972: checking whether the host c compiler (gcc    ) works
+configure:1981: gcc -c   -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:1996: checking whether the host c++ compiler (c++    ) works
+configure:2005: c++ -c   -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:2025: checking for /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
+configure:2059: checking for gcc
+configure:2172: checking whether the C compiler (/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -mandroid -fno-short-enums -fno-exceptions  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined ) works
+configure:2188: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  conftest.c  1>&5
+configure:2214: checking whether the C compiler (/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -mandroid -fno-short-enums -fno-exceptions  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined ) is a cross-compiler
+configure:2219: checking whether we are using GNU C
+configure:2228: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -E conftest.c
+configure:2247: checking whether /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc accepts -g
+configure:2283: checking for /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++
+configure:2319: checking for c++
+configure:2351: checking whether the C++ compiler (/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined ) works
+configure:2367: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  conftest.C  1>&5
+configure:2393: checking whether the C++ compiler (/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined ) is a cross-compiler
+configure:2398: checking whether we are using GNU C++
+configure:2407: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -E conftest.C
+configure:2426: checking whether /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ accepts -g
+configure:2463: checking for /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-ranlib
+configure:2498: checking for /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-ar
+configure:2533: checking for /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-as
+configure:2587: checking for /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-ld
+configure:2622: checking for /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-strip
+configure:2657: checking for arm-linux-androideabi-windres
+configure:2657: checking for arm-linux-android-windres
+configure:4071: checking how to run the C preprocessor
+configure:4151: checking how to run the C++ preprocessor
+configure:4169: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -E -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C >/dev/null 2>conftest.out
+configure:4244: checking for a BSD compatible install
+configure:4297: checking whether ln -s works
+configure:4320: checking for minimum required perl version >= 5.006
+configure:4331: checking for full perl installation
+configure:4346: checking for python2.7
+configure:4425: checking for doxygen
+configure:4474: checking for autoconf
+configure:4525: checking for unzip
+configure:4581: checking for zip
+configure:4635: checking for makedepend
+configure:4683: checking for xargs
+configure:4735: checking for rpmbuild
+configure:5021: checking compiler version
+configure:5095: checking for make
+configure:5162: checking for X
+configure:5229: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-cpp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c >/dev/null 2>conftest.out
+configure:5225:27: error: X11/Intrinsic.h: No such file or directory
+configure: failed program was:
+#line 5224 "configure"
+#include "confdefs.h"
+#include <X11/Intrinsic.h>
+configure:5305: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  conftest.c -lXt  1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -lXt
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 5298 "configure"
+#include "confdefs.h"
+
+int main() {
+XtMalloc()
+; return 0; }
+configure:6447: checking whether the chosen combination of compiler flags (-march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp) works
+configure:6456: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:6479: checking for ARM SIMD support in compiler
+configure:6490: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb conftest.c  1>&5
+configure:6510: checking for ARM NEON support in compiler
+configure:6521: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb conftest.c  1>&5
+configure:6563: checking that static assertion macros used in autoconf tests work
+configure:6584: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:6601: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure: In function 'main':
+configure:6602: error: size of array 'static_assert_line_6601' is negative
+configure: failed program was:
+#line 6594 "configure"
+#include "confdefs.h"
+
+#define CONFIGURE_STATIC_ASSERT(condition) CONFIGURE_STATIC_ASSERT_IMPL(condition, __LINE__)
+#define CONFIGURE_STATIC_ASSERT_IMPL(condition, line) CONFIGURE_STATIC_ASSERT_IMPL2(condition, line)
+#define CONFIGURE_STATIC_ASSERT_IMPL2(condition, line) typedef int static_assert_line_##line[(condition) ? 1 : -1]
+
+int main() {
+CONFIGURE_STATIC_ASSERT(0)
+; return 0; }
+configure:6624: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:6641: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure: In function 'int main()':
+configure:6641: error: size of array 'static_assert_line_6641' is negative
+configure: failed program was:
+#line 6634 "configure"
+#include "confdefs.h"
+
+#define CONFIGURE_STATIC_ASSERT(condition) CONFIGURE_STATIC_ASSERT_IMPL(condition, __LINE__)
+#define CONFIGURE_STATIC_ASSERT_IMPL(condition, line) CONFIGURE_STATIC_ASSERT_IMPL2(condition, line)
+#define CONFIGURE_STATIC_ASSERT_IMPL2(condition, line) typedef int static_assert_line_##line[(condition) ? 1 : -1]
+
+int main() {
+CONFIGURE_STATIC_ASSERT(0)
+; return 0; }
+configure:6776: checking for --noexecstack option to as
+configure:6787: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -Wa,--noexecstack -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:6800: checking for -z noexecstack option to ld
+configure:6811: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:6825: checking for -mssse3 option to /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
+configure:6837: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -mssse3 -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+cc1: error: unrecognized command line option "-mssse3"
+configure: failed program was:
+#line 6830 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:6863: checking whether the C compiler supports -Werror=return-type
+configure:6886: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -Werror -Werror=return-type -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:6914: checking whether the C compiler supports -Wtype-limits
+configure:6937: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -Werror -Wtype-limits -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:6965: checking whether the C compiler supports -Wempty-body
+configure:6988: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -Werror -Wempty-body -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:7022: checking whether the C compiler supports -Wno-overlength-strings
+configure:7045: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -Werror -Woverlength-strings -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:7129: checking whether the C++ compiler supports -Werror=return-type
+configure:7152: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -Werror -Werror=return-type -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:7180: checking whether the C++ compiler supports -Wtype-limits
+configure:7203: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -Werror -Wtype-limits -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:7231: checking whether the C++ compiler supports -Wempty-body
+configure:7254: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -Werror -Wempty-body -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:7290: checking whether the C++ compiler supports -Wno-overlength-strings
+configure:7313: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -Werror -Woverlength-strings -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:7341: checking whether the C++ compiler supports -Wno-invalid-offsetof
+configure:7364: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -Werror -Winvalid-offsetof -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:7392: checking whether the C++ compiler supports -Wno-variadic-macros
+configure:7415: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -Werror -Wvariadic-macros -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:7528: checking whether ld has archive extraction flags
+configure:7552: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -Wl,--whole-archive conftest.c -Wl,--no-whole-archive 1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: crtbegin_dynamic.o: No such file: No such file or directory
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 7545 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:7552: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -Wl,-z -Wl,allextract conftest.c -Wl,-z -Wl,defaultextract 1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: crtbegin_dynamic.o: No such file: No such file or directory
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 7545 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:7552: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -Wl,-all conftest.c -Wl,-none 1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: unrecognized option '-all'
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: use the --help option for usage information
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 7545 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:7587: checking for 64-bit OS
+configure:7596: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure: In function 'main':
+configure:7597: error: size of array 'static_assert_line_7596' is negative
+configure: failed program was:
+#line 7589 "configure"
+#include "confdefs.h"
+
+#define CONFIGURE_STATIC_ASSERT(condition) CONFIGURE_STATIC_ASSERT_IMPL(condition, __LINE__)
+#define CONFIGURE_STATIC_ASSERT_IMPL(condition, line) CONFIGURE_STATIC_ASSERT_IMPL2(condition, line)
+#define CONFIGURE_STATIC_ASSERT_IMPL2(condition, line) typedef int static_assert_line_##line[(condition) ? 1 : -1]
+
+int main() {
+CONFIGURE_STATIC_ASSERT(sizeof(void*) == 8)
+; return 0; }
+configure:7945: checking for Python version >= 2.5 but not 3.x
+configure:7956: checking for custom <stdint.h> implementation
+configure:9101: checking whether the linker supports Identical Code Folding
+configure:9110: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack -Wl,--icf=safe -ffunction-sections conftest.c  -lstlport_static 1>&2
+configure:9181: checking for ANSI C header files
+configure:9194: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-cpp -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c >/dev/null 2>conftest.out
+configure:9285: checking for working const
+configure:9339: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:9360: checking for mode_t
+configure:9393: checking for off_t
+configure:9426: checking for pid_t
+configure:9459: checking for size_t
+configure:9499: checking for __stdcall
+configure:9513: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:9507: error: '__stdcall' was not declared in this scope
+configure:9507: error: template argument 1 is invalid
+configure: failed program was:
+#line 9504 "configure"
+#include "confdefs.h"
+template <typename Method> struct foo;
+                  template <> struct foo<void (*)()> {};
+                  template <> struct foo<void (__stdcall*)()> {};
+int main() {
+
+; return 0; }
+configure:9542: checking for ssize_t
+configure:9555: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:9577: checking for st_blksize in struct stat
+configure:9590: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:9611: checking for siginfo_t
+configure:9624: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:9647: checking for int64
+configure:9660: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure: In function 'main':
+configure:9656: error: 'int64' undeclared (first use in this function)
+configure:9656: error: (Each undeclared identifier is reported only once
+configure:9656: error: for each function it appears in.)
+configure:9656: error: expected ';' before 'foo'
+configure: failed program was:
+#line 9652 "configure"
+#include "confdefs.h"
+#include <stdio.h>
+                  #include <sys/types.h>
+int main() {
+int64 foo = 0;
+; return 0; }
+configure:9682: checking for uint
+configure:9695: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:9717: checking for uint_t
+configure:9730: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:9761: checking for uname.domainname
+configure:9774: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:9798: checking for uname.__domainname
+configure:9811: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure: In function 'int main()':
+configure:9807: error: 'struct utsname' has no member named '__domainname'
+configure: failed program was:
+#line 9803 "configure"
+#include "confdefs.h"
+#include <sys/utsname.h>
+int main() {
+ struct utsname *res; char *domain;
+            (void)uname(res);  if (res != 0) { domain = res->__domainname; } 
+; return 0; }
+configure:9847: checking for gcc c++0x headers bug without rtti
+configure:9859: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:9879: checking for usable char16_t (2 bytes, unsigned)
+configure:9895: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:9920: checking for usable wchar_t (2 bytes, unsigned)
+configure:9934: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure: In function 'int main()':
+configure:9933: error: size of array 'static_assert_line_9933' is negative
+configure: failed program was:
+#line 9925 "configure"
+#include "confdefs.h"
+#include <stddef.h>
+                     
+#define CONFIGURE_STATIC_ASSERT(condition) CONFIGURE_STATIC_ASSERT_IMPL(condition, __LINE__)
+#define CONFIGURE_STATIC_ASSERT_IMPL(condition, line) CONFIGURE_STATIC_ASSERT_IMPL2(condition, line)
+#define CONFIGURE_STATIC_ASSERT_IMPL2(condition, line) typedef int static_assert_line_##line[(condition) ? 1 : -1]
+
+int main() {
+CONFIGURE_STATIC_ASSERT(sizeof(wchar_t) == 2);
+                     CONFIGURE_STATIC_ASSERT((wchar_t)-1 > (wchar_t) 0)
+; return 0; }
+configure:10016: checking for visibility(hidden) attribute
+configure:10041: checking for visibility(default) attribute
+configure:10066: checking for visibility pragma support
+configure:10091: checking For gcc visibility bug with class-level attributes (GCC bug 26905)
+configure:10119: checking For x86_64 gcc visibility bug with builtins (GCC bug 20297)
+configure:10173: checking for gcc PR49911
+configure:10270: checking for __force_align_arg_pointer__ attribute
+configure:10282: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -Werror -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+cc1: warnings being treated as errors
+configure:10276: error: '__force_align_arg_pointer__' attribute directive ignored
+configure: failed program was:
+#line 10275 "configure"
+#include "confdefs.h"
+__attribute__ ((__force_align_arg_pointer__)) void test() {}
+int main() {
+
+; return 0; }
+configure:10309: checking for dirent.h that defines DIR
+configure:10322: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10347: checking for opendir in -ldir
+configure:10366: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c -ldir   -lstlport_static 1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -ldir
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 10355 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char opendir();
+
+int main() {
+opendir()
+; return 0; }
+configure:10441: checking for sys/byteorder.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:27: error: sys/byteorder.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <sys/byteorder.h>
+int main() {
+
+; return 0; }
+configure:10441: checking for compat.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:20: error: compat.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <compat.h>
+int main() {
+
+; return 0; }
+configure:10441: checking for getopt.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10441: checking for sys/bitypes.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:25: error: sys/bitypes.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <sys/bitypes.h>
+int main() {
+
+; return 0; }
+configure:10441: checking for memory.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10441: checking for unistd.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10441: checking for gnu/libc-version.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:30: error: gnu/libc-version.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <gnu/libc-version.h>
+int main() {
+
+; return 0; }
+configure:10441: checking for nl_types.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:22: error: nl_types.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <nl_types.h>
+int main() {
+
+; return 0; }
+configure:10441: checking for malloc.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10441: checking for X11/XKBlib.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:24: error: X11/XKBlib.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <X11/XKBlib.h>
+int main() {
+
+; return 0; }
+configure:10441: checking for io.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:16: error: io.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <io.h>
+int main() {
+
+; return 0; }
+configure:10441: checking for cpuid.h
+configure:10454: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10448:19: error: cpuid.h: No such file or directory
+configure: failed program was:
+#line 10446 "configure"
+#include "confdefs.h"
+
+#include <cpuid.h>
+int main() {
+
+; return 0; }
+configure:10486: checking for sys/statvfs.h
+configure:10499: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10493:25: error: sys/statvfs.h: No such file or directory
+configure: failed program was:
+#line 10491 "configure"
+#include "confdefs.h"
+
+#include <sys/statvfs.h>
+int main() {
+
+; return 0; }
+configure:10486: checking for sys/statfs.h
+configure:10499: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10486: checking for sys/vfs.h
+configure:10499: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10486: checking for sys/mount.h
+configure:10499: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10530: checking for sys/quota.h
+configure:10543: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10537:23: error: sys/quota.h: No such file or directory
+configure: failed program was:
+#line 10535 "configure"
+#include "confdefs.h"
+
+#include <sys/quota.h>
+int main() {
+
+; return 0; }
+configure:10530: checking for sys/sysmacros.h
+configure:10543: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10573: checking for linux/quota.h
+configure:10586: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10617: checking for mmintrin.h
+configure:10630: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10667: checking for new
+configure:10680: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:10773: checking for sys/cdefs.h
+configure:10786: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10820: checking for gethostbyname_r in -lc_r
+configure:10839: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c -lc_r   -lstlport_static 1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -lc_r
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 10828 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gethostbyname_r();
+
+int main() {
+gethostbyname_r()
+; return 0; }
+configure:10877: checking for library containing dlopen
+configure:10895: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:10935: checking for dlfcn.h
+configure:10948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:10982: checking for dladdr
+configure:11010: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -D_GNU_SOURCE -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/cc4EOYyd.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `dladdr'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 10987 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char dladdr(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char dladdr();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_dladdr) || defined (__stub___dladdr)
+choke me
+#else
+dladdr();
+#endif
+
+; return 0; }
+configure:10982: checking for memmem
+configure:11010: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -D_GNU_SOURCE -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11145: checking for socket in -lsocket
+configure:11164: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c -lsocket   -lstlport_static 1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -lsocket
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11153 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char socket();
+
+int main() {
+socket()
+; return 0; }
+configure:11602: checking for pthread_create in -lpthreads
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o dummy dummy.c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -lpthreads -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack  -lstlport_static
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+configure:11625: checking for pthread_create in -lpthread
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o dummy dummy.c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -lpthread -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack  -lstlport_static
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -lpthread
+collect2: ld returned 1 exit status
+configure:11648: checking for pthread_create in -lc_r
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o dummy dummy.c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -lc_r -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack  -lstlport_static
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -lc_r
+collect2: ld returned 1 exit status
+configure:11671: checking for pthread_create in -lc
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o dummy dummy.c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  -lc -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack  -lstlport_static
+configure:11730: checking whether /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc accepts -pthread
+configure:11753: checking whether /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc accepts -pthreads
+configure:11836: checking whether /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc needs -traditional
+configure:11882: checking for 8-bit clean memcmp
+configure:11920: checking for random
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/ccC0pjHH.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `random'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11925 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char random(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char random();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_random) || defined (__stub___random)
+choke me
+#else
+random();
+#endif
+
+; return 0; }
+configure:11920: checking for strerror
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11920: checking for lchown
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11920: checking for fchmod
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11920: checking for snprintf
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11932: warning: conflicting types for built-in function 'snprintf'
+configure:11920: checking for statvfs
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/ccgiuMN0.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `statvfs'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11925 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char statvfs(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char statvfs();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_statvfs) || defined (__stub___statvfs)
+choke me
+#else
+statvfs();
+#endif
+
+; return 0; }
+configure:11920: checking for memmove
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11932: warning: conflicting types for built-in function 'memmove'
+configure:11920: checking for rint
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11932: warning: conflicting types for built-in function 'rint'
+configure:11920: checking for stat64
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/ccCGSe4g.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `stat64'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11925 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char stat64(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char stat64();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_stat64) || defined (__stub___stat64)
+choke me
+#else
+stat64();
+#endif
+
+; return 0; }
+configure:11920: checking for lstat64
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/cceDkV5i.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `lstat64'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11925 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char lstat64(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char lstat64();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_lstat64) || defined (__stub___lstat64)
+choke me
+#else
+lstat64();
+#endif
+
+; return 0; }
+configure:11920: checking for truncate64
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/ccY54Esn.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `truncate64'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11925 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char truncate64(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char truncate64();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_truncate64) || defined (__stub___truncate64)
+choke me
+#else
+truncate64();
+#endif
+
+; return 0; }
+configure:11920: checking for statvfs64
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/ccwoXiMo.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `statvfs64'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11925 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char statvfs64(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char statvfs64();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_statvfs64) || defined (__stub___statvfs64)
+choke me
+#else
+statvfs64();
+#endif
+
+; return 0; }
+configure:11920: checking for setbuf
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11920: checking for isatty
+configure:11948: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11975: checking for flockfile
+configure:12003: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:11975: checking for getpagesize
+configure:12003: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+/tmp/ccgHwpqG.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `getpagesize'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11980 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char getpagesize(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getpagesize();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_getpagesize) || defined (__stub___getpagesize)
+choke me
+#else
+getpagesize();
+#endif
+
+; return 0; }
+configure:12030: checking for localtime_r
+configure:12058: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:12030: checking for strtok_r
+configure:12058: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static 1>&5
+configure:12084: checking for clock_gettime(CLOCK_MONOTONIC)
+configure:12100: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static  1>&5
+configure:12137: checking for wcrtomb
+configure:12149: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+configure:12169: checking for mbrtowc
+configure:12181: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+configure:12210: checking for res_ninit()
+configure:12227: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static  1>&5
+configure: In function 'main':
+configure:12223: error: dereferencing pointer to incomplete type
+configure: failed program was:
+#line 12215 "configure"
+#include "confdefs.h"
+
+        #ifdef linux
+        #define _BSD_SOURCE 1
+        #endif
+        #include <resolv.h>
+        
+int main() {
+int foo = res_ninit(&_res);
+; return 0; }
+configure:12257: checking for gnu_get_libc_version()
+configure:12273: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+configure: In function 'int main()':
+configure:12269: error: 'gnu_get_libc_version' was not declared in this scope
+configure: failed program was:
+#line 12262 "configure"
+#include "confdefs.h"
+
+        #ifdef HAVE_GNU_LIBC_VERSION_H
+        #include <gnu/libc-version.h>
+        #endif
+        
+int main() {
+const char *glibc_version = gnu_get_libc_version();
+; return 0; }
+configure:12302: checking for iconv in -lc
+configure:12324: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C -lc   -lstlport_static  1>&5
+/tmp/ccYOgdhg.o: In function `main':
+conftest.C:(.text.main+0x4): undefined reference to `iconv'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 12310 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char iconv();
+
+int main() {
+iconv()
+; return 0; }
+configure:12343: checking for iconv in -liconv
+configure:12365: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C -liconv   -lstlport_static  1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -liconv
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 12351 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char iconv();
+
+int main() {
+iconv()
+; return 0; }
+configure:12384: checking for libiconv in -liconv
+configure:12406: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C -liconv   -lstlport_static  1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: cannot find -liconv
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 12392 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char libiconv();
+
+int main() {
+libiconv()
+; return 0; }
+configure:12433: checking for iconv()
+configure:12452: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static   1>&5
+configure:12441:27: error: iconv.h: No such file or directory
+configure: In function 'int main()':
+configure:12445: error: 'iconv_t' was not declared in this scope
+configure:12445: error: expected ';' before 'h'
+configure:12446: error: 'h' was not declared in this scope
+configure:12446: error: 'iconv' was not declared in this scope
+configure:12447: error: 'iconv_close' was not declared in this scope
+configure: failed program was:
+#line 12438 "configure"
+#include "confdefs.h"
+
+        #include <stdlib.h>
+        #include <iconv.h>
+        
+int main() {
+
+            iconv_t h = iconv_open("", "");
+            iconv(h, NULL, NULL, NULL, NULL);
+            iconv_close(h);
+        
+; return 0; }
+configure:12525: checking for nl_langinfo and CODESET
+configure:12537: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+configure:12531:22: error: langinfo.h: No such file or directory
+configure: In function 'int main()':
+configure:12533: error: 'CODESET' was not declared in this scope
+configure:12533: error: 'nl_langinfo' was not declared in this scope
+configure: failed program was:
+#line 12530 "configure"
+#include "confdefs.h"
+#include <langinfo.h>
+int main() {
+char* cs = nl_langinfo(CODESET);
+; return 0; }
+configure:12569: checking for an implementation of va_copy()
+configure:12610: checking for an implementation of __va_copy()
+configure:12651: checking whether va_lists can be copied by value
+configure:12730: checking for ARM EABI
+configure:12748: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:12773: checking for modern C++ template specialization syntax support
+configure:12788: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:12806: checking whether partial template specialization works
+configure:12819: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:12840: checking whether the C++ "using" keyword resolves ambiguity
+configure:12861: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:12882: checking for C++ dynamic_cast to void*
+configure:12933: checking whether C++ requires implementation of unused virtual methods
+configure:12945: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+/tmp/ccuj5amj.o: In function `X::X()':
+conftest.C:(.text._ZN1XC1Ev[X::X()]+0x2c): undefined reference to `vtable for X'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 12938 "configure"
+#include "confdefs.h"
+class X {private: virtual void never_called();};
+int main() {
+X x;
+; return 0; }
+configure:12968: checking for trouble comparing to zero near std::operator!=()
+configure:12984: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:13011: checking for __thread keyword for TLS variables
+configure:13023: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack -fPIC -shared -Wl,-z,defs  conftest.C  -lstlport_static  1>&5
+configure:13071: checking whether the CRT objects have text relocations
+configure:13076: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest.so -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -shared -Wl,-z,defs  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.cpp  -lstlport_static  1>&5
+configure:13100: checking for malloc.h
+configure:13218: checking for strndup
+configure:13249: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+configure:13218: checking for posix_memalign
+configure:13249: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+/tmp/ccMSlAJN.o: In function `main':
+conftest.C:(.text.main+0x4): undefined reference to `posix_memalign'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 13223 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char posix_memalign(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char posix_memalign();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_posix_memalign) || defined (__stub___posix_memalign)
+choke me
+#else
+posix_memalign();
+#endif
+
+; return 0; }
+configure:13218: checking for memalign
+configure:13249: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+configure:13218: checking for valloc
+configure:13249: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+configure:13276: checking for __attribute__((always_inline))
+configure:13288: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:13303: checking for __attribute__((malloc))
+configure:13315: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:13330: checking for __attribute__((warn_unused_result))
+configure:13342: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:13366: checking for LC_MESSAGES
+configure:13378: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:13401: checking for localeconv
+configure:13429: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static  1>&5
+/tmp/ccS3eRCb.o: In function `main':
+conftest.c:(.text.main+0x4): undefined reference to `localeconv'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 13406 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char localeconv(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char localeconv();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_localeconv) || defined (__stub___localeconv)
+choke me
+#else
+localeconv();
+#endif
+
+; return 0; }
+configure:14020: checking for YASM assembler
+configure:14026: checking for yasm
+configure:14190: checking for gzread in -lz
+configure:14209: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c -lz   -lstlport_static  1>&5
+configure:14244: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:14942: checking for application to build
+configure:14964: checking if app-specific confvars.sh exists
+configure:18165: checking __attribute__ ((aligned ())) support
+configure:18182: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -Werror -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:19092: checking for java
+configure:19141: checking for javac
+configure:19190: checking for jar
+configure:19917: checking for tar archiver
+configure:19923: checking for gnutar
+configure:19923: checking for gtar
+configure:19923: checking for tar
+configure:19960: checking for wget
+configure:19966: checking for wget
+configure:20594: checking for pkg-config
+configure:20638: checking for conic
+configure:21860: checking for valid optimization flags
+configure:21871: /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -Os -freorder-blocks -fno-reorder-functions -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:22108: checking size of int *
+configure:22427: checking for ccache
+configure:22592: checking whether linker creates PT_GNU_RELRO segments
+configure:22597: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static  1>&2
+configure:22774: checking for __cxa_demangle
+configure:22805: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -o conftest -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.C  -lstlport_static  1>&5
+/tmp/cc01YzPJ.o: In function `main':
+conftest.C:(.text.main+0x4): undefined reference to `__cxa_demangle'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 22779 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char __cxa_demangle(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __cxa_demangle();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub___cxa_demangle) || defined (__stub_____cxa_demangle)
+choke me
+#else
+__cxa_demangle();
+#endif
+
+; return 0; }
+configure:22853: checking for unwind.h
+configure:22866: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:22883: checking for _Unwind_Backtrace
+configure:22911: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static  1>&5
+configure:23072: checking for -pipe support
+configure:23086: checking whether C compiler supports -fprofile-generate
+configure:23095: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -pipe -fprofile-generate -fprofile-correction -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:23159: checking whether C++ compiler has -pedantic long long bug
+configure:23168: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -pipe -pedantic  -Wall -Wpointer-arith -Woverloaded-virtual -Werror=return-type -Wtype-limits -Wempty-body -Wno-ctor-dtor-privacy -Wno-overlength-strings -Wno-invalid-offsetof -Wno-variadic-macros -Wno-long-long -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure:23195: checking for correct overload resolution with const and templates
+configure:23230: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-g++ -c -mandroid -fno-short-enums -fno-exceptions -Wno-psabi  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -I/home/tag/Work/fennec/objdir-droid/build/stlport -I/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/stlport -fno-exceptions -fno-strict-aliasing -fno-rtti -ffunction-sections -fdata-sections -fno-exceptions -std=gnu++0x -pipe -pedantic  -Wall -Wpointer-arith -Woverloaded-virtual -Werror=return-type -Wtype-limits -Wempty-body -Wno-ctor-dtor-privacy -Wno-overlength-strings -Wno-invalid-offsetof -Wno-variadic-macros -Wno-long-long -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.C 1>&5
+configure: In function 'int main()':
+configure:23225: warning: 'bar' is used uninitialized in this function
+configure:23269: checking what kind of list files are supported by the linker
+configure:23274: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest.o -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -pipe -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:23276: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.list  -lstlport_static  1>&5
+configure:23300: checking what kind of ordering can be done with the linker
+configure:23315: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -pipe -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack -Wl,--section-ordering-file,conftest.order conftest.c  -lstlport_static  1>&5
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: unrecognized option '--section-ordering-file'
+/home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: use the --help option for usage information
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 23308 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:23327: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -shared -Wl,-z,defs  -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack -o libconftest.so -Wl
+configure:23988: checking for stdint.h
+configure:24001: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -pipe -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:23988: checking for inttypes.h
+configure:24001: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -pipe -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:23988: checking for sys/int_types.h
+configure:24001: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -c -mandroid -fno-short-enums -fno-exceptions  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -pipe -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include  conftest.c 1>&5
+configure:23995:27: error: sys/int_types.h: No such file or directory
+configure: failed program was:
+#line 23993 "configure"
+#include "confdefs.h"
+
+#include <sys/int_types.h>
+int main() {
+
+; return 0; }
+configure:25143: checking for posix_fallocate
+configure:25153: /usr/bin/ccache /home/tag/External/android-ndk-r5c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -o conftest -pedantic -Wall -Wpointer-arith -Wdeclaration-after-statement -Werror=return-type -Wtype-limits -Wempty-body -Wno-unused -Wno-overlength-strings -Wno-long-long -mandroid -fno-short-enums -fno-exceptions -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=softfp -fno-strict-aliasing -ffunction-sections -fdata-sections -pipe -isystem /home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/include   -mandroid -L/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib -Wl,-rpath-link=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm/usr/lib --sysroot=/home/tag/External/android-ndk-r5c/platforms/android-5/arch-arm -llog -Wl,--allow-shlib-undefined  -mthumb -L/home/tag/Work/fennec/objdir-droid/build/stlport -L/home/tag/External/android-ndk-r5c/sources/cxx-stl/stlport/libs/armeabi-v7a/ -Wl,-z,noexecstack conftest.c  -lstlport_static  1>&5
+configure: In function 'main':
+configure:25149: warning: implicit declaration of function 'posix_fallocate'
+/tmp/ccjtnYCk.o: In function `main':
+conftest.c:(.text.main+0x10): undefined reference to `posix_fallocate'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 25145 "configure"
+#include "confdefs.h"
+#define _XOPEN_SOURCE 600
+  #include <fcntl.h>
+int main() {
+posix_fallocate(0, 0, 0);
+; return 0; }

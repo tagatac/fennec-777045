@@ -6,11 +6,11 @@ import @ANDROID_PACKAGE_NAME@.*;
 public class testCheck2 extends PixelTest {
     @Override
     protected int getTestType() {
-        return TEST_TALOS;
+        return TEST_MOCHITEST;
     }
 
     public void testCheck2() {
-        String url = getAbsoluteUrl("/startup_test/fennecmark/cnn/cnn.com/index.html");
+        String url = "http://www.cnn.com/index.html";
 
         mActions.expectGeckoEvent("Gecko:Ready").blockForEvent();
         loadAndPaint(url);
